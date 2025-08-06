@@ -15,9 +15,10 @@ import DoctorsPage from './pages/DoctorsPage';
 import FeedbackPage from './pages/FeedbackPage';
 import ProfilePage from './pages/ProfilePage';
 import NotFoundPage from './pages/NotFoundPage';
+import PastFeedbacksPage from './pages/PastFeedbacksPage';
 
 function App() {
-  const { user, isAuthenticated, isAuthLoading, initializeAuth } = useAuthStore();
+  const { user, isAuthenticated, isAuthLoading, initializeAuth, logout } = useAuthStore();
   const { t } = useTranslation();
 
   // Initialize auth on app startup
@@ -42,12 +43,13 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Layout />}>
+        <Route path="/" element={<Layout onLogout={logout} />}>
           <Route index element={<Navigate to="/home" replace />} />
           <Route path="home" element={<HomePage />} />
           <Route path="doctors" element={<DoctorsPage />} />
           <Route path="feedback" element={<FeedbackPage />} />
           <Route path="profile" element={<ProfilePage />} />
+          <Route path="past-feedbacks" element={<PastFeedbacksPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
       </Routes>

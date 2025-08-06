@@ -36,4 +36,22 @@ export const feedbackService = {
       normalizeError(error, "Failed to submit feedback");
     }
   },
+
+  getMyFeedbacks: async () => {
+    try {
+      const response = await feedbackApi.get("/user/past/self");
+      return response.data;
+    } catch (error) {
+      normalizeError(error, "Failed to fetch feedbacks");
+    }
+  },
+
+  resendFeedback: async (feedbackId) => {
+    try {
+      const response = await feedbackApi.post(`/resend/${feedbackId}`);
+      return response.data;
+    } catch (error) {
+      normalizeError(error, "Failed to resend feedback");
+    }
+  },
 };

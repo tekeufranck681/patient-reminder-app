@@ -112,6 +112,43 @@ const resources = {
       submitFeedback: 'Submit Feedback',
       characterCount: 'characters',
       
+      // Past Feedbacks
+      pastFeedbacks: 'Past Feedbacks',
+      pastFeedbacksDescription: 'View and manage your previously submitted feedback',
+      searchFeedbacks: 'Search feedbacks...',
+      filters: 'Filters',
+      filterByRating: 'Filter by Rating',
+      filterByType: 'Filter by Type',
+      filterByDate: 'Filter by Date',
+      allRatings: 'All Ratings',
+      allTypes: 'All Types',
+      allDates: 'All Dates',
+      stars: 'stars',
+      star: 'star',
+      textFeedback: 'Text Feedback',
+      voiceFeedback: 'Voice Feedback',
+      emojiFeedback: 'Emoji Feedback',
+      today: 'Today',
+      thisWeek: 'This Week',
+      thisMonth: 'This Month',
+      older: 'Older',
+      sortNewest: 'Newest First',
+      sortOldest: 'Oldest First',
+      sortHighestRated: 'Highest Rated',
+      sortLowestRated: 'Lowest Rated',
+      feedbacksFound: 'feedbacks found',
+      noFeedbacksFound: 'No feedbacks found',
+      tryAdjustingFilters: 'Try adjusting your search or filters',
+      noFeedbacksYet: 'You haven\'t submitted any feedback yet',
+      resendFeedback: 'Resend',
+      feedbackResent: 'Feedback resent successfully',
+      errorResendingFeedback: 'Failed to resend feedback',
+      loadingFeedbacks: 'Loading feedbacks...',
+      errorFetchingFeedbacks: 'Failed to fetch feedbacks',
+      text: 'Text',
+      voiceTranscription: 'Voice Transcription',
+      locale: 'en-US',
+      
       // Common
       loading: 'Loading...',
       error: 'Error',
@@ -140,7 +177,16 @@ const resources = {
       emergency: 'Emergency',
       radiology: 'Radiology',
       pediatrics: 'Pediatrics',
-      oncology: 'Oncology'
+      oncology: 'Oncology',
+      
+      // ChatBot
+      chatBotTooltip: 'Any concerns about your medication or services? Use the chatbot!',
+      chatBotWelcome: '👋 Hi! I\'m your EcoHealth assistant. I can help you with questions about medications, services, appointments, and more. How can I assist you today?',
+      typeMessage: 'Type your message...',
+      clearConversation: 'Clear conversation',
+      voiceMessage: 'Voice message',
+      microphoneAccessDenied: 'Microphone access denied',
+      ecoHealthAssistant: 'EcoHealth Assistant'
     }
   },
   fr: {
@@ -253,6 +299,43 @@ const resources = {
       submitFeedback: 'Soumettre les commentaires',
       characterCount: 'caractères',
       
+      // Past Feedbacks
+      pastFeedbacks: 'Commentaires Précédents',
+      pastFeedbacksDescription: 'Consultez et gérez vos commentaires précédemment soumis',
+      searchFeedbacks: 'Rechercher des commentaires...',
+      filters: 'Filtres',
+      filterByRating: 'Filtrer par Note',
+      filterByType: 'Filtrer par Type',
+      filterByDate: 'Filtrer par Date',
+      allRatings: 'Toutes les Notes',
+      allTypes: 'Tous les Types',
+      allDates: 'Toutes les Dates',
+      stars: 'étoiles',
+      star: 'étoile',
+      textFeedback: 'Commentaire Texte',
+      voiceFeedback: 'Commentaire Vocal',
+      emojiFeedback: 'Commentaire Emoji',
+      today: 'Aujourd\'hui',
+      thisWeek: 'Cette Semaine',
+      thisMonth: 'Ce Mois',
+      older: 'Plus Ancien',
+      sortNewest: 'Plus Récent',
+      sortOldest: 'Plus Ancien',
+      sortHighestRated: 'Mieux Noté',
+      sortLowestRated: 'Moins Bien Noté',
+      feedbacksFound: 'commentaires trouvés',
+      noFeedbacksFound: 'Aucun commentaire trouvé',
+      tryAdjustingFilters: 'Essayez d\'ajuster votre recherche ou vos filtres',
+      noFeedbacksYet: 'Vous n\'avez pas encore soumis de commentaires',
+      resendFeedback: 'Renvoyer',
+      feedbackResent: 'Commentaire renvoyé avec succès',
+      errorResendingFeedback: 'Échec du renvoi du commentaire',
+      loadingFeedbacks: 'Chargement des commentaires...',
+      errorFetchingFeedbacks: 'Échec du chargement des commentaires',
+      text: 'Texte',
+      voiceTranscription: 'Transcription Vocale',
+      locale: 'fr-FR',
+      
       // Common
       loading: 'Chargement...',
       error: 'Erreur',
@@ -281,7 +364,16 @@ const resources = {
       emergency: 'Urgences',
       radiology: 'Radiologie',
       pediatrics: 'Pédiatrie',
-      oncology: 'Oncologie'
+      oncology: 'Oncologie',
+      
+      // ChatBot
+      chatBotTooltip: 'Des préoccupations concernant vos médicaments ou services ? Utilisez le chatbot !',
+      chatBotWelcome: '👋 Salut ! Je suis votre assistant EcoHealth. Je peux vous aider avec des questions sur les médicaments, services, rendez-vous, et plus encore. Comment puis-je vous aider aujourd\'hui ?',
+      typeMessage: 'Tapez votre message...',
+      clearConversation: 'Effacer la conversation',
+      voiceMessage: 'Message vocal',
+      microphoneAccessDenied: 'Accès au microphone refusé',
+      ecoHealthAssistant: 'Assistant EcoHealth'
     }
   }
 };

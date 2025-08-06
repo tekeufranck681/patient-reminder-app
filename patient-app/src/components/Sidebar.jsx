@@ -12,7 +12,8 @@ import {
   X,
   Heart,
   ChevronLeft,
-  ChevronRight
+  ChevronRight,
+  History
 } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import LanguageSwitcher from './LanguageSwitcher';
@@ -27,7 +28,8 @@ const Sidebar = ({ onLogout }) => {
     { id: 'home', path: '/home', icon: Home, label: t('home') },
     { id: 'doctors', path: '/doctors', icon: Users, label: t('doctors') },
     { id: 'feedback', path: '/feedback', icon: MessageSquare, label: t('feedback') },
-    { id: 'profile', path: '/profile', icon: User, label: t('profile') }
+    { id: 'profile', path: '/profile', icon: User, label: t('profile') },
+    { id: 'pastFeedbacks', path: '/past-feedbacks', icon: History, label: t('pastFeedbacks') }
   ];
 
   const sidebarVariants = {
