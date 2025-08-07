@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useAuthStore } from "../stores/authStore";
 
-const CHAT_BASE_URL = `${import.meta.env.VITE_BACKEND_CHAT_URL}`;
+const CHAT_BASE_URL = `${import.meta.env.VITE_BACKEND_CHAT_URL}/`;
 
 const chatApi = axios.create({
   baseURL: CHAT_BASE_URL,
